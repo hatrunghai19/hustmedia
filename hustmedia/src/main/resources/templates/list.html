@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List ALL Major</h1>
+    <table>
+        <tr>
+          <th>STT</th>
+          <th>Name</th>
+        </tr>
+        <tr th:each="major : ${major}">
+          <td th:text="${major.id}"></td>
+          <td th:text="${major.name}"></td>
+        </tr>
+      </table>
+</body>
+</html>
