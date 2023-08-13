@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HustmediaApplication<hustmedia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hustmedia.HustmediaApplication",
+            "projectName": "hustmedia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
